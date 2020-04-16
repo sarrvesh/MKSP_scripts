@@ -64,5 +64,6 @@ dependencies:
     - numpy==1.16.0
     - pillow==6.2.2
     - pythonqwt==0.5.5
+#This following line needs to be adjusted by the user:    
 prefix: /home/michael/anaconda2/envs/pynod3
 
