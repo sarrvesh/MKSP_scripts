@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+
+"""
+gradient.py
+
+Script to derive the gradient of an input image.
+
+Written by Sarrvesh S. Sridhar
+"""
+
+import astropy.io.fits as pf
+import numpy as np
+import optparse
+
+def main(in_options):
+   pass
+
+if __name__ == '__main__':
+   opt = optparse.OptionParser()
+   opt.add_option('-i', '--input', help='Input fits image [no default]', \
+                  default='')
+   opt.add_option('-o', '--output', help='Output filename [default: out.fits]',
+                  default='out.fits')
+   in_options, args = opt.parse_args()
+   main(in_options)
